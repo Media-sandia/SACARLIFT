@@ -5,98 +5,81 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Modern Business - Start Bootstrap Template</title>
+        <title>Sacarlift</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="assets/css/styles.css" rel="stylesheet" />
+         <!-- custom styles-->
+         <link rel="stylesheet" href="/assets/css/custom_styles.css">
+
     </head>
-    <body class="d-flex flex-column h-100">
-        <main class="flex-shrink-0">
+    <body class="">
+       <main class="">
             <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                            <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
-                            <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                    <li><a class="dropdown-item" href="blog-home.html">Blog Home</a></li>
-                                    <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
-                                    <li><a class="dropdown-item" href="portfolio-overview.html">Portfolio Overview</a></li>
-                                    <li><a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a></li>
-                                </ul>
-                            </li>
+            <header id="header" class="d-flex align-items-center">
+                <div class="container d-flex align-items-center">
+            
+                  <div id="logo" class="me-auto">
+                    <a href="index.html"><img src="assets/images/sacarlift.png" width="23%" alt=""></a>
+                  </div>
+            
+                  <nav id="navbar" class="navbar order-last order-lg-0">
+                    <ul>
+                      <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                      <li><a class="nav-link scrollto" href="#about">Nosotros</a></li>
+                      <li><a class="nav-link scrollto" href="#features">Servicios</a></li>
+                      <!--<li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+                      <li><a class="nav-link scrollto" href="#team">Team</a></li>-->
+                      <!--<li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                          <li><a href="#">Drop Down 1</a></li>
+                          <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                            <ul>
+                              <li><a href="#">Deep Drop Down 1</a></li>
+                              <li><a href="#">Deep Drop Down 2</a></li>
+                              <li><a href="#">Deep Drop Down 3</a></li>
+                              <li><a href="#">Deep Drop Down 4</a></li>
+                              <li><a href="#">Deep Drop Down 5</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#">Drop Down 2</a></li>
+                          <li><a href="#">Drop Down 3</a></li>
+                          <li><a href="#">Drop Down 4</a></li>
                         </ul>
+                      </li>-->
+                      <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+                    </ul>
+                    <i class="bi bi-list mobile-nav-toggle"></i>
+                  </nav>
+                    <div class="header-social-links d-flex align-items-center">
+                        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
                     </div>
-                </div>
-            </nav>
-            <!-- Header-->
-            <header class="bg-dark py-5">
-                <div class="container px-5">
-                    <div class="row gx-5 align-items-center justify-content-center">
-                        <div class="col-lg-8 col-xl-7 col-xxl-6">
-                            <div class="my-5 text-center text-xl-start">
-                                <h1 class="display-5 fw-bolder text-white mb-2">A Bootstrap 5 template for modern businesses</h1>
-                                <p class="lead fw-normal text-white-50 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit!</p>
-                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Get Started</a>
-                                    <a class="btn btn-outline-light btn-lg px-4" href="#!">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." /></div>
-                    </div>
-                </div>
+                </div> 
             </header>
+
+            
             <!-- Features section-->
-            <section class="py-5" id="features">
-                <div class="container px-5 my-5">
-                    <div class="row gx-5">
-                        <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0">A better way to start building.</h2></div>
-                        <div class="col-lg-8">
+            <section class="py-5 " id="features">
+                <div class="container  my-5">
+                    <div class="row gx-5 ite">
+                        <div class=" align-self-center col-lg-4 mb-5 mb-lg-0"><h1 class="fw-bolder text-center">Pagina En Construccion</h1></div>
+                        <div class="col-lg-8 bg-img">
                             <div class="row gx-5 row-cols-1 row-cols-md-2">
-                                <div class="col mb-5 h-100">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
-                                    <h2 class="h5">Featured title</h2>
-                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
-                                </div>
-                                <div class="col mb-5 h-100">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
-                                    <h2 class="h5">Featured title</h2>
-                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
-                                </div>
-                                <div class="col mb-5 mb-md-0 h-100">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
-                                    <h2 class="h5">Featured title</h2>
-                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
-                                </div>
-                                <div class="col h-100">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
-                                    <h2 class="h5">Featured title</h2>
-                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
-                                </div>
+                               
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
             <!-- Testimonial section-->
-            <div class="py-5 bg-light">
+            <!--<div class="py-5 bg-light">
                 <div class="container px-5 my-5">
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-10 col-xl-7">
@@ -114,10 +97,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Blog preview section-->
+            </div>-->
             <section class="py-5">
-                <div class="container px-5 my-5">
+                <!--<div class="container px-5 my-5">
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-8 col-xl-6">
                             <div class="text-center">
@@ -191,30 +173,103 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Call to action-->
-                    <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
-                        <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
-                            <div class="mb-4 mb-xl-0">
-                                <div class="fs-3 fw-bold text-white">New products, delivered to you.</div>
-                                <div class="text-white-50">Sign up for our newsletter for the latest updates.</div>
+                </div>-->
+
+                <div id="contact" class="contact-area">
+                    <div class="contact-inner area-padding">
+                      <div class="contact-overly"></div>
+                      <div class="container ">
+                        <div class="row">
+                          <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="section-headline text-center">
+                              <h2>Contact us</h2>
                             </div>
-                            <div class="ms-xl-4">
-                                <div class="input-group mb-2">
-                                    <input class="form-control" type="text" placeholder="Email address..." aria-label="Email address..." aria-describedby="button-newsletter" />
-                                    <button class="btn btn-outline-light" id="button-newsletter" type="button">Sign up</button>
-                                </div>
-                                <div class="small text-white-50">We care about privacy, and will never share your data.</div>
-                            </div>
+                          </div>
                         </div>
-                    </aside>
-                </div>
+                        <div class="row">
+                          <!-- Start contact icon column -->
+                          <div class="col-md-4">
+                            <div class="contact-icon text-center">
+                              <div class="single-icon">
+                                <i class="bi bi-phone"></i>
+                                <p>
+                                  Call: +1 (469) 756 6821<br>
+                                  <span>Monday-Friday (9am-5pm)</span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Start contact icon column -->
+                          <div class="col-md-4">
+                            <div class="contact-icon text-center">
+                              <div class="single-icon">
+                                <i class="bi bi-envelope"></i>
+                                <p>
+                                  Email: oscar.meister@sacarlift.com<br>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Start contact icon column -->
+                          <div class="col-md-4">
+                            <div class="contact-icon text-center">
+                              <div class="single-icon">
+                                <i class="bi bi-geo-alt"></i>
+                                <p>
+                                    985 E State Highway 121 Suite-201<br>
+                                  <span>Lewisville, TX 75057</span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+              
+                          <!-- Start Google Map -->
+                          <div class="col-md-6">
+                            <!-- Start Map -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6993616.556191625!2d-103.78172491270294!3d31.15666265123893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864070360b823249%3A0x16eb1c8f1808de3c!2sTexas%2C%20EE.%20UU.!5e0!3m2!1ses-419!2smx!4v1573152089882!5m2!1ses-419!2smx" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <!-- End Map -->
+                          </div>
+                          <!-- End Google Map -->
+              
+                          <!-- Start  contact -->
+                          <div class="col-md-6">
+                            <div class="form contact-form">
+                              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                <div class="form-group">
+                                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="form-group mt-3">
+                                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                </div>
+                                <div class="form-group mt-3">
+                                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                                </div>
+                                <div class="form-group mt-3">
+                                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                                </div>
+                                <div class="my-3">
+                                  <div class="loading">Loading</div>
+                                  <div class="error-message"></div>
+                                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                                </div>
+                                <div class="text-center"><button class="btn" type="submit">Send Message</button></div>
+                              </form>
+                            </div>
+                          </div>
+                          <!-- End Left contact -->
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- End Contact Section -->
             </section>
         </main>
         <!-- Footer-->
-        <footer class="bg-dark py-4 mt-auto">
+        <footer class="bg-sacar py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Your Website 2022</div></div>
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; SACARLIFT 2022</div></div>
                     <div class="col-auto">
                         <a class="link-light small" href="#!">Privacy</a>
                         <span class="text-white mx-1">&middot;</span>
@@ -227,7 +282,12 @@
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Jquery JS-->
+        <script src="assets/jquery/jquery-3.6.0.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        <script>
+            $(".preloader").fadeOut(800);
+        </script>
     </body>
 </html>
